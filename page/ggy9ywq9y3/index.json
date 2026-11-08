@@ -1,0 +1,40 @@
+{
+  "id": "ggy9ywq9y3",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Kurulumdan panoya; veriden rapora.",
+    "en": "From setup to panel; from data to report.",
+    "ar": "من التهيئة إلى اللوحة؛ من البيانات إلى التقرير."
+  },
+  "keyword": {
+    "tr": "Ürün & Pano",
+    "en": "Product & Panel",
+    "ar": "منتج ولوحة"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "hfo5m0",
+      "olq6yv"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:57:28.209Z",
+  "update": "2026-11-05T23:44:46.762Z"
+}

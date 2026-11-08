@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Oyun ve 3D içerik; görseller temsilîdir.",
+    "en": "Games and 3D content; images are representative.",
+    "ar": "ألعاب ومحتوى ثلاثي الأبعاد؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "oyun, stüdyo, 3d",
+    "en": "game, studio, 3d",
+    "ar": "لعبة، استوديو، ثلاثي"
+  },
+  "category": "Kurumsal",
+  "name": "Kare Studio",
+  "domain": "oyun.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "poppins",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#E4174A",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "5px",
+    "--mx-radius-md": "8px",
+    "--mx-radius-lg": "11px",
+    "--mx-radius-xl": "15px"
+  },
+  "icon": "icon.png"
+}
