@@ -27,9 +27,9 @@
   "index": 0,
   "url": "",
   "text": {
-    "tr": "<h2>Misyonumuz</h2>\n<p>Üretimi, net fiyatı ve zamanında teslimi sunmak.</p>",
-    "en": "<h2>Our mission</h2>\n<p>To offer production, clear pricing and on-time delivery.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>تقديم الإنتاج والسعر الواضح والتسليم في الوقت.</p>"
+    "tr": "<h2>Misyonumuz</h2>\n<p>Oyuncuya keyif veren, teknik olarak sağlam ve özgün oyunlar ile 3D içerik üretmek.</p>",
+    "en": "<h2>Our mission</h2>\n<p>To make original, technically solid games and 3D content that players enjoy.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>أن ننتج ألعابًا ومحتوى ثلاثي الأبعاد أصيلًا ومتينًا تقنيًا يستمتع به اللاعبون.</p>"
   },
   "title": {
     "tr": "Misyon",
@@ -37,7 +37,7 @@
     "ar": "المهمة"
   },
   "date": "2026-11-05T18:57:28.049Z",
-  "update": "2026-11-05T23:44:46.784Z",
+  "update": "2026-11-12T07:36:39.623Z",
   "sablonIzi": "a8a6ac234dced5af",
   "sablonIziDil": {
     "en": "3f5f6c628dec679f",

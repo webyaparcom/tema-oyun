@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Oyun ve 3D içerik; görseller temsilîdir.",
-    "en": "Games and 3D content; images are representative.",
-    "ar": "ألعاب ومحتوى ثلاثي الأبعاد؛ الصور تمثيلية."
+    "tr": "Bağımsız oyun stüdyosu: mobil ve PC oyun geliştirme, 3D modelleme, animasyon ve oyun testi; görseller temsilîdir.",
+    "en": "Indie game studio: mobile and PC game development, 3D modelling, animation and game testing; images are representative.",
+    "ar": "استوديو ألعاب مستقل: تطوير ألعاب الجوال والحاسوب والنمذجة ثلاثية الأبعاد والرسوم المتحركة واختبار الألعاب؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "oyun, stüdyo, 3d",
-    "en": "game, studio, 3d",
-    "ar": "لعبة، استوديو، ثلاثي"
+    "tr": "oyun stüdyosu, oyun geliştirme, 3d modelleme, mobil oyun, oyun testi",
+    "en": "game studio, game development, 3d modelling, mobile game, game testing",
+    "ar": "استوديو ألعاب، تطوير ألعاب، نمذجة ثلاثية الأبعاد، ألعاب الجوال، اختبار الألعاب"
   },
   "category": "Kurumsal",
   "name": "Kare Studio",

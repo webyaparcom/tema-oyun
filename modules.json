@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Proje görüşmesi",
+          "en": "Project call",
+          "ar": "مكالمة المشروع"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "saas-dizustu.webp",
+        "img": "elektronik-kategori-3.webp",
         "video": "",
         "poster": "",
         "alt": "Kare Studio",
@@ -1539,24 +1550,24 @@
         },
         "title": {
           "tr": "Kare kare, oyuna",
-          "en": "Frame by frame, to the game",
-          "ar": "كادرًا بكتدر، إلى اللعبة"
+          "en": "Frame by frame, into the game",
+          "ar": "إطارًا بإطار، نحو اللعبة"
         },
         "metin": {
-          "tr": "Kare Studio, oyun ve 3D içerik geliştirir. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Kare develops games and 3D content. Images are representative and text is fictional.",
-          "ar": "يطوّر كدر ألعاب ومحتوى ثلاثي الأبعاد. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Mobil ve PC için oyun geliştiriyor, 3D modelleme, animasyon ve oyun testi hizmeti veriyoruz. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "We develop games for mobile and PC, and offer 3D modelling, animation and game testing. Images are representative; text is fictional.",
+          "ar": "نطوّر ألعابًا للجوال والحاسوب، ونقدّم النمذجة ثلاثية الأبعاد والرسوم المتحركة واختبار الألعاب. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
-          "tr": "Projeler",
-          "en": "Projects",
-          "ar": "مشروعات"
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Demo iste",
-          "en": "Request demo",
-          "ar": "اطلب عرض تجريبي"
+          "tr": "Proje görüşmesi",
+          "en": "Project call",
+          "ar": "مكالمة المشروع"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne sunuyorsun?",
-          "en": "What do you offer?",
-          "ar": "ماذا تُقدم؟"
+          "tr": "Neler yapıyoruz?",
+          "en": "What do we make?",
+          "ar": "ماذا نصنع؟"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1613,13 +1624,13 @@
       },
       "data": [
         {
-          "deger": 99.9,
-          "sonek": "%",
-          "ikon": "schedule",
+          "deger": 8,
+          "sonek": "",
+          "ikon": "sports_esports",
           "etiket": {
-            "tr": "Uyarlılık (demo)",
-            "en": "Availability (demo)",
-            "ar": "التوفر (تجريبي)"
+            "tr": "Yayınlanan oyun",
+            "en": "Games released",
+            "ar": "لعبة منشورة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1628,13 +1639,28 @@
           }
         },
         {
-          "deger": 50,
-          "sonek": " ms",
-          "ikon": "speed",
+          "deger": 120,
+          "sonek": "+",
+          "ikon": "view_in_ar",
           "etiket": {
-            "tr": "Yanıt süresi",
-            "en": "Response time",
-            "ar": "زمن الاستجابة"
+            "tr": "3D model",
+            "en": "3D models",
+            "ar": "نموذج ثلاثي الأبعاد"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 2,
+          "sonek": "",
+          "ikon": "devices",
+          "etiket": {
+            "tr": "Platform",
+            "en": "Platforms",
+            "ar": "منصة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1645,26 +1671,11 @@
         {
           "deger": 12,
           "sonek": "",
-          "ikon": "dashboard",
-          "etiket": {
-            "tr": "Pano kartı",
-            "en": "Panel cards",
-            "ar": "بطاقات اللوحة"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 6,
-          "sonek": "",
           "ikon": "groups",
           "etiket": {
-            "tr": "Takım",
-            "en": "Team",
-            "ar": "الفريق"
+            "tr": "Ekip üyesi",
+            "en": "Team members",
+            "ar": "عضو فريق"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Ürün & Pano",
-          "en": "Product & Panel",
-          "ar": "منتج ولوحة"
+          "tr": "Oyun ve 3D",
+          "en": "Games & 3D",
+          "ar": "الألعاب وثلاثي الأبعاد"
         },
         "title": {
-          "tr": "Ne sunuyorsun?",
-          "en": "What do you offer?",
-          "ar": "ماذا تُقدم؟"
+          "tr": "Neler yapıyoruz?",
+          "en": "What do we make?",
+          "ar": "ماذا نصنع؟"
         },
         "description": {
-          "tr": "Kurulumdan panoya; veriden rapora.",
-          "en": "From setup to panel; from data to report.",
-          "ar": "من التهيئة إلى اللوحة؛ من البيانات إلى التقرير."
+          "tr": "Fikirden yayına; oyun, karakter ve sahne üretimi.",
+          "en": "From idea to release: games, characters and scenes.",
+          "ar": "من الفكرة إلى الإطلاق: ألعاب وشخصيات ومشاهد."
         }
       },
       "data": [
         {
-          "icon": "dashboard",
+          "icon": "sports_esports",
           "name": {
-            "tr": "Yönetim paneli",
-            "en": "Management panel",
-            "ar": "لوحة إدارة"
+            "tr": "Oyun geliştirme",
+            "en": "Game development",
+            "ar": "تطوير الألعاب"
           },
           "description": {
-            "tr": "Gösterge ve uyarı kartları.",
-            "en": "Indicator and warning cards.",
-            "ar": "بطاقات مؤشر وإنذار."
+            "tr": "Unity ve Unreal ile mobil ve PC oyunları.",
+            "en": "Mobile and PC games built with Unity and Unreal.",
+            "ar": "ألعاب جوال وحاسوب بمحركَي Unity وUnreal."
           }
         },
         {
-          "icon": "stacked_line_chart",
+          "icon": "view_in_ar",
           "name": {
-            "tr": "İzleme",
-            "en": "Monitoring",
-            "ar": "المراقبة"
+            "tr": "3D modelleme",
+            "en": "3D modelling",
+            "ar": "النمذجة ثلاثية الأبعاد"
           },
           "description": {
-            "tr": "Yeni veri ve grafik (demo).",
-            "en": "New data and charts (demo).",
-            "ar": "بيانات ورسوم جديدة (تجريبي)."
+            "tr": "Karakter, prop ve çevre modelleri.",
+            "en": "Character, prop and environment models.",
+            "ar": "نماذج للشخصيات والعناصر والبيئات."
           }
         },
         {
-          "icon": "api",
+          "icon": "animation",
           "name": {
-            "tr": "Entegrasyon",
-            "en": "Integration",
-            "ar": "التكامل"
+            "tr": "Animasyon",
+            "en": "Animation",
+            "ar": "الرسوم المتحركة"
           },
           "description": {
-            "tr": "API eşleme ve test API.",
-            "en": "API mapping and test API.",
-            "ar": "عرائض API واختبار واجهة."
+            "tr": "Karakter animasyonu ve kısa sinematikler.",
+            "en": "Character animation and short cinematics.",
+            "ar": "حركة الشخصيات ومقاطع سينمائية قصيرة."
           }
         },
         {
-          "icon": "insights",
+          "icon": "palette",
           "name": {
-            "tr": "Rapor",
-            "en": "Report",
-            "ar": "التقارير"
+            "tr": "Oyun ve seviye tasarımı",
+            "en": "Game & level design",
+            "ar": "تصميم اللعبة والمراحل"
           },
           "description": {
-            "tr": "Haftalık rapor (demo).",
-            "en": "Weekly report (demo).",
-            "ar": "تقرير أسبوعي (تجريبي)."
+            "tr": "Oynanış, ekonomi ve seviye kurgusu.",
+            "en": "Gameplay, economy and level design.",
+            "ar": "تصميم اللعب والاقتصاد والمراحل."
           }
         },
         {
-          "icon": "security",
+          "icon": "bug_report",
           "name": {
-            "tr": "Yetki ve rol",
-            "en": "Authorization and role",
-            "ar": "التفويض والدور"
+            "tr": "Oyun testi (QA)",
+            "en": "Game testing (QA)",
+            "ar": "اختبار الألعاب"
           },
           "description": {
-            "tr": "Yetki matrisi ve kayıt.",
-            "en": "Authorization matrix and record.",
-            "ar": "مصفوفة التفويض والسجل."
+            "tr": "Hata taraması ve cihaz uyumluluk testi.",
+            "en": "Bug sweeps and device compatibility testing.",
+            "ar": "فحص الأخطاء واختبار التوافق مع الأجهزة."
           }
         },
         {
-          "icon": "update",
+          "icon": "rocket_launch",
           "name": {
-            "tr": "Güncelleme",
-            "en": "Update",
-            "ar": "التحديث"
+            "tr": "Yayın ve güncelleme",
+            "en": "Release & updates",
+            "ar": "الإطلاق والتحديثات"
           },
           "description": {
-            "tr": "Sürüm ve geçiş planı.",
-            "en": "Version and migration plan.",
-            "ar": "خطة الإصدار والترحيل."
+            "tr": "Mağaza yayını ve sonrası içerik güncellemeleri.",
+            "en": "Store release and post-launch content updates.",
+            "ar": "النشر في المتاجر وتحديثات المحتوى بعد الإطلاق."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Üretim hattı",
+          "en": "Our pipeline",
+          "ar": "مسار الإنتاج"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Fikirden mağazaya dört adım",
+          "en": "Four steps from idea to store",
+          "ar": "أربع خطوات من الفكرة إلى المتجر"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Konseptten yayına oyun üretim akışı.",
+          "en": "The game production flow from concept to release.",
+          "ar": "مسار إنتاج اللعبة من الفكرة إلى الإطلاق."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Kurulum",
-            "en": "Setup",
-            "ar": "التثبيت"
+            "tr": "Konsept",
+            "en": "Concept",
+            "ar": "الفكرة"
           },
           "text": {
-            "tr": "Hesap ve alan ayarı.",
-            "en": "Account and domain setup.",
-            "ar": "تهيئة الحساب والنطاق."
+            "tr": "Fikir, hedef kitle ve oyun döngüsü netleşir.",
+            "en": "The idea, audience and core loop take shape.",
+            "ar": "تتبلور الفكرة والجمهور المستهدف ودورة اللعب."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Veri",
-            "en": "Data",
-            "ar": "البيانات"
+            "tr": "Prototip",
+            "en": "Prototype",
+            "ar": "النموذج الأولي"
           },
           "text": {
-            "tr": "İçe aktarma ve eşleştirme.",
-            "en": "Import and matching.",
-            "ar": "استيراد ومطابقة."
+            "tr": "Oynanabilir ilk sürüm hızlıca çıkarılır.",
+            "en": "A playable first version is built quickly.",
+            "ar": "يُبنى إصدار أول قابل للعب بسرعة."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Test",
-            "en": "Testing",
-            "ar": "الاختبار"
+            "tr": "Üretim",
+            "en": "Production",
+            "ar": "الإنتاج"
           },
           "text": {
-            "tr": "Denklik ve performans testi.",
-            "en": "Compatibility and performance test.",
-            "ar": "اختبار توافق وأداء."
+            "tr": "Sanat, kod ve ses birlikte ilerler.",
+            "en": "Art, code and audio move forward together.",
+            "ar": "يتقدّم الفن والبرمجة والصوت معًا."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Yayın",
-            "en": "Live",
-            "ar": "البث المباشر"
+            "tr": "Test ve yayın",
+            "en": "Test & release",
+            "ar": "الاختبار والإطلاق"
           },
           "text": {
-            "tr": "Ayarlar ve ekip bilgisi.",
-            "en": "Configuration and team notification.",
-            "ar": "تركيب وإخطار الفريق."
+            "tr": "Cihaz testleri sonrası mağazaya çıkış.",
+            "en": "Release to stores after device testing.",
+            "ar": "النشر في المتاجر بعد اختبار الأجهزة."
           }
         }
       ],
@@ -1916,9 +1927,9 @@
           "ar": "فريقنا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Oyunu yapanlar",
+          "en": "The people behind the game",
+          "ar": "من يصنعون اللعبة"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Melis K.",
           "role": {
-            "tr": "Ürün",
-            "en": "Product manager",
-            "ar": "منتج"
+            "tr": "Oyun tasarımcısı",
+            "en": "Game designer",
+            "ar": "مصممة ألعاب"
           },
           "bio": {
-            "tr": "7 yıl panele.",
-            "en": "7 years of panel.",
-            "ar": "٧ سنوات في اللوحة."
+            "tr": "Mobil oyunlarda 7 yıl oynanış tasarımı.",
+            "en": "7 years of gameplay design on mobile games.",
+            "ar": "7 سنوات في تصميم اللعب لألعاب الجوال."
           },
           "img": ""
         },
         {
           "name": "Can D.",
           "role": {
-            "tr": "Mühendis",
-            "en": "Engineer",
-            "ar": "مهندس"
+            "tr": "Oyun geliştirici",
+            "en": "Game developer",
+            "ar": "مطوّر ألعاب"
           },
           "bio": {
-            "tr": "6 yıl API.",
-            "en": "6 years of API.",
-            "ar": "٦ سنوات في واجهة."
+            "tr": "Unity ile 6 yıl.",
+            "en": "6 years with Unity.",
+            "ar": "6 سنوات مع Unity."
           },
           "img": ""
         },
         {
           "name": "İpek S.",
           "role": {
-            "tr": "Destek",
-            "en": "Support specialist",
-            "ar": "دعم"
+            "tr": "3D sanatçı",
+            "en": "3D artist",
+            "ar": "فنانة ثلاثية الأبعاد"
           },
           "bio": {
-            "tr": "4 yıl onay.",
-            "en": "4 years of approval.",
-            "ar": "٤ سنوات في الموافقة."
+            "tr": "Karakter ve çevre modellemede 4 yıl.",
+            "en": "4 years in character and environment modelling.",
+            "ar": "4 سنوات في نمذجة الشخصيات والبيئات."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "İş ortaklarımız ne diyor?",
+          "en": "What our partners say",
+          "ar": "ماذا يقول شركاؤنا؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2019,46 +2030,46 @@
         {
           "name": "H. Tekin.",
           "role": {
-            "tr": "Kullanıcı",
-            "en": "User",
-            "ar": "مستخدم"
+            "tr": "Yayıncı",
+            "en": "Publisher",
+            "ar": "ناشر"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Kurulumu dakik; ekran net.",
-            "en": "Setup on time; screen clear.",
-            "ar": "تركيب في الوقت؛ الشاشة واضحة."
+            "tr": "Prototip ilk haftada oynanabilir hâldeydi; iletişim çok net.",
+            "en": "The prototype was playable in the first week; communication was very clear.",
+            "ar": "كان النموذج الأولي قابلًا للعب في الأسبوع الأول، والتواصل واضحًا جدًا."
           }
         },
         {
           "name": "R. Aydın.",
           "role": {
-            "tr": "Şirket",
-            "en": "Company",
-            "ar": "شركة"
+            "tr": "Bağımsız geliştirici",
+            "en": "Indie developer",
+            "ar": "مطوّر مستقل"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "İçe aktarma sorunsuz; rapor açık.",
-            "en": "Import is smooth; report is transparent.",
-            "ar": "الاستيراد سلس؛ التقرير واضح."
+            "tr": "3D karakter modelleri motora sorunsuz aktı.",
+            "en": "The 3D character models imported into the engine without problems.",
+            "ar": "استُوردت نماذج الشخصيات ثلاثية الأبعاد إلى المحرك دون مشاكل."
           }
         },
         {
           "name": "S. Uçar.",
           "role": {
-            "tr": "Yönetici",
-            "en": "Administrator",
-            "ar": "مدير"
+            "tr": "Proje yöneticisi",
+            "en": "Project manager",
+            "ar": "مدير مشروع"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Yetkilendirme doğru; kayıt eksiksiz.",
-            "en": "Authorization is correct; record is complete.",
-            "ar": "التفويض صحيح؛ السجل كامل."
+            "tr": "Test raporları detaylıydı; hatalar hızla kapandı.",
+            "en": "The test reports were detailed and bugs were closed quickly.",
+            "ar": "كانت تقارير الاختبار مفصّلة وأُغلقت الأخطاء بسرعة."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "8px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Stüdyoda neler oluyor?",
+          "en": "Inside the studio",
+          "ar": "داخل الاستوديو"
         },
         "title": {
-          "tr": "Ne sunuyorsun?",
-          "en": "What do you offer?",
-          "ar": "ماذا تُقدم؟"
+          "tr": "Neler yapıyoruz?",
+          "en": "What do we make?",
+          "ar": "ماذا نصنع؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; içerik kurgusaldır.",
+          "en": "Images are representative; the content is fictional.",
+          "ar": "الصور تمثيلية والمحتوى افتراضي."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,16 +2137,16 @@
       "data": [
         {
           "baslik": {
-            "tr": "Yönetim paneli",
-            "en": "Management panel",
-            "ar": "لوحة إدارة"
+            "tr": "Oyun geliştirme",
+            "en": "Game development",
+            "ar": "تطوير الألعاب"
           },
           "metin": {
-            "tr": "Gösterge ve uyarı kartları.",
-            "en": "Indicator and warning cards.",
-            "ar": "بطاقات مؤشر وإنذار."
+            "tr": "Unity ve Unreal ile mobil ve PC oyunları.",
+            "en": "Mobile and PC games built with Unity and Unreal.",
+            "ar": "ألعاب جوال وحاسوب بمحركَي Unity وUnreal."
           },
-          "img": "saas-ekip-alani.webp",
+          "img": "elektronik-hero-masa.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2145,16 +2156,16 @@
         },
         {
           "baslik": {
-            "tr": "İzleme",
-            "en": "Monitoring",
-            "ar": "المراقبة"
+            "tr": "3D modelleme",
+            "en": "3D modelling",
+            "ar": "النمذجة ثلاثية الأبعاد"
           },
           "metin": {
-            "tr": "Yeni veri ve grafik (demo).",
-            "en": "New data and charts (demo).",
-            "ar": "بيانات ورسوم جديدة (تجريبي)."
+            "tr": "Karakter, prop ve çevre modelleri.",
+            "en": "Character, prop and environment models.",
+            "ar": "نماذج للشخصيات والعناصر والبيئات."
           },
-          "img": "saas-rapor.webp",
+          "img": "elektronik-urun-kulaklik.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2164,16 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Entegrasyon",
-            "en": "Integration",
-            "ar": "التكامل"
+            "tr": "Animasyon",
+            "en": "Animation",
+            "ar": "الرسوم المتحركة"
           },
           "metin": {
-            "tr": "API eşleme ve test API.",
-            "en": "API mapping and test API.",
-            "ar": "عرائض API واختبار واجهة."
+            "tr": "Karakter animasyonu ve kısa sinematikler.",
+            "en": "Character animation and short cinematics.",
+            "ar": "حركة الشخصيات ومقاطع سينمائية قصيرة."
           },
-          "img": "saas-zaman.webp",
+          "img": "saas-hero-pano.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "8px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Birlikte çalıştığımız yapımcılar",
+          "en": "Publishers and partners",
+          "ar": "الناشرون والشركاء"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal yayıncı ve etkinlik adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional publisher and event names; they do not belong to a real organisation.",
+          "ar": "أسماء ناشرين وفعاليات افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Abone"
+          "name": "Demo Yayıncı"
         },
         {
-          "name": "Demo Entegrasyon"
+          "name": "Demo Mobil Oyun"
         },
         {
-          "name": "Demo Rapor"
+          "name": "Demo Espor"
         },
         {
-          "name": "Demo Sürüm"
+          "name": "Demo Animasyon"
         },
         {
-          "name": "Demo Takım"
+          "name": "Demo Oyun Fuarı"
         },
         {
-          "name": "Demo Destek"
+          "name": "Demo Teknokent"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Hangi oyun motorlarıyla çalışıyorsunuz?",
+            "en": "Which game engines do you use?",
+            "ar": "ما محركات الألعاب التي تستخدمونها؟"
+          },
+          "answer": {
+            "tr": "Ağırlıkla Unity ve Unreal; projeye göre farklı bir motor da seçilebilir.",
+            "en": "Mainly Unity and Unreal; another engine can be chosen to suit the project.",
+            "ar": "غالبًا Unity وUnreal، ويمكن اختيار محرك آخر بحسب المشروع."
+          },
           "soru": {
-            "tr": "Veriler nerede saklanıyor?",
-            "en": "Where is the data stored?",
-            "ar": "أين تُخزن البيانات?"
+            "tr": "Hangi oyun motorlarıyla çalışıyorsunuz?",
+            "en": "Which game engines do you use?",
+            "ar": "ما محركات الألعاب التي تستخدمونها؟"
           },
           "cevap": {
-            "tr": "Bölgesel veri merkezi; demo metnidir.",
-            "en": "Regional data center; this is a demo text.",
-            "ar": "مركز بيانات إقليمي؛ هذا نص تجريبي."
+            "tr": "Ağırlıkla Unity ve Unreal; projeye göre farklı bir motor da seçilebilir.",
+            "en": "Mainly Unity and Unreal; another engine can be chosen to suit the project.",
+            "ar": "غالبًا Unity وUnreal، ويمكن اختيار محرك آخر بحسب المشروع."
           }
         },
         {
+          "question": {
+            "tr": "Yalnızca 3D modelleme hizmeti alabilir miyim?",
+            "en": "Can I order only 3D modelling?",
+            "ar": "هل يمكنني طلب النمذجة ثلاثية الأبعاد فقط؟"
+          },
+          "answer": {
+            "tr": "Evet; model, animasyon ve test hizmetleri ayrı ayrı da sunulur.",
+            "en": "Yes; modelling, animation and testing are also offered separately.",
+            "ar": "نعم؛ تُقدَّم النمذجة والرسوم المتحركة والاختبار كخدمات منفصلة أيضًا."
+          },
           "soru": {
-            "tr": "Fiyatlandırma nasıldı?",
-            "en": "How is the pricing?",
-            "ar": "كيف التسعير?"
+            "tr": "Yalnızca 3D modelleme hizmeti alabilir miyim?",
+            "en": "Can I order only 3D modelling?",
+            "ar": "هل يمكنني طلب النمذجة ثلاثية الأبعاد فقط؟"
           },
           "cevap": {
-            "tr": "Kullanım ve kalem bazlı; demo örnek vermez.",
-            "en": "Based on usage and items; no demo example.",
-            "ar": "حسب الاستخدام والبنود؛ لا مثال تجريبي."
+            "tr": "Evet; model, animasyon ve test hizmetleri ayrı ayrı da sunulur.",
+            "en": "Yes; modelling, animation and testing are also offered separately.",
+            "ar": "نعم؛ تُقدَّم النمذجة والرسوم المتحركة والاختبار كخدمات منفصلة أيضًا."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Kapsam ve süreye göre teklifle belirlenir; bizimle iletişime geçin.",
+            "en": "Prices are quoted by scope and timeline; contact us.",
+            "ar": "تُحدَّد الأسعار بعرض سعر حسب النطاق والمدة؛ تواصل معنا."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Kapsam ve süreye göre teklifle belirlenir; bizimle iletişime geçin.",
+            "en": "Prices are quoted by scope and timeline; contact us.",
+            "ar": "تُحدَّد الأسعار بعرض سعر حسب النطاق والمدة؛ تواصل معنا."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "8px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Proje görüşmesi isteyin",
+          "en": "Request a project call",
+          "ar": "اطلب مكالمة حول مشروعك"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
           "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "ar": "اترك بياناتك؛ نردّ خلال يومي عمل على الأكثر. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يتم حفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Kare Studio",
@@ -2421,18 +2472,18 @@
           "ar": "Kare Studio"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; içerik kurgusaldır.",
+          "en": "Images are representative; the content is fictional.",
+          "ar": "الصور تمثيلية والمحتوى افتراضي."
         },
         "address": {
           "tr": "Kare Sokak No: 5, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "5 Kare Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع كادر رقم 5، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع كاري رقم 5، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 021 01 02",
         "whatsapp": "903420210102",
-        "email": "demo@karestudyo.example",
+        "email": "merhaba@karestudyo.example",
         "hours": {
           "tr": "Pzt–Cum 10:00 – 19:00",
           "en": "Mon–Wed 10:00 – 19:00",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Proje formu",
+          "en": "Project form",
+          "ar": "نموذج المشروع"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Oyun geliştirme",
+              "en": "Game development",
+              "ar": "تطوير لعبة"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "3D modelleme / animasyon",
+              "en": "3D modelling / animation",
+              "ar": "نمذجة ثلاثية الأبعاد / رسوم متحركة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Oyun testi",
+              "en": "Game testing",
+              "ar": "اختبار الألعاب"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Kare Studio"
         },
         "description": {
-          "tr": "Kare Studio, oyun ve 3D içerik geliştirir. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Kare develops games and 3D content. Images are representative and text is fictional.",
-          "ar": "يطوّر كدر ألعاب ومحتوى ثلاثي الأبعاد. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Kare Studio; mobil ve PC için oyun geliştiren, 3D modelleme, animasyon ve oyun testi hizmeti veren bağımsız bir oyun stüdyosudur. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Kare Studio is an independent game studio that develops games for mobile and PC and offers 3D modelling, animation and game testing. Images are representative; text is fictional.",
+          "ar": "كاري استوديو ألعاب مستقل يطوّر ألعابًا للجوال والحاسوب ويقدّم النمذجة ثلاثية الأبعاد والرسوم المتحركة واختبار الألعاب. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Pano",
-          "en": "The panel",
-          "ar": "الوحدة"
+          "tr": "Prototip hafta",
+          "en": "Prototype week",
+          "ar": "أسبوع النموذج الأولي"
         },
         "spot2": {
-          "tr": "Tüm kartlar aynı pınırda; uyarı ve eşleşme.",
-          "en": "All cards in the same panel; alert and match.",
-          "ar": "كل البطاقات في نفس اللوحة؛ إنذار ومطابقة."
+          "tr": "Her projede ilk haftada oynanabilir bir prototip.",
+          "en": "A playable prototype in the first week of every project.",
+          "ar": "نموذج أولي قابل للعب في الأسبوع الأول من كل مشروع."
         },
-        "icon2": "verified",
+        "icon2": "sports_esports",
         "name3": {
-          "tr": "Geçmiş kaydı",
-          "en": "History record",
-          "ar": "سجل التاريخ"
+          "tr": "Oyun testi laboratuvarı",
+          "en": "Device test bench",
+          "ar": "مختبر اختبار الأجهزة"
         },
         "spot3": {
-          "tr": "Her işlem kayıt ve onay iziyle.",
-          "en": "Every action with record and approval trace.",
-          "ar": "كل إجراء بسجل وآثار موافقة."
+          "tr": "Farklı telefon ve bilgisayarlarda uyumluluk testi.",
+          "en": "Compatibility testing on a range of phones and PCs.",
+          "ar": "اختبار التوافق على أجهزة جوال وحاسوب متنوعة."
         },
-        "icon3": "schedule",
-        "img": "saas-hero-pano.webp",
+        "icon3": "devices",
+        "img": "saas-ekip-alani.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2735,11 +2787,11 @@
         },
         "phone": "+90 342 021 01 02",
         "whatsapp": "903420210102",
-        "email": "demo@karestudyo.example",
+        "email": "merhaba@karestudyo.example",
         "address": {
           "tr": "Kare Sokak No: 5, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "5 Kare Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع كادر رقم 5، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع كاري رقم 5، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cum 10:00 – 19:00",
+          "en": "Mon–Fri 10:00 – 19:00",
+          "ar": "الاثنين–الجمعة 10:00 – 19:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,19 +2899,19 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "8px",
         "title": {
-          "tr": "Kareye gir",
-          "en": "Enter the frame",
-          "ar": "ادخل الكادر"
+          "tr": "Oyununuzu birlikte kuralım",
+          "en": "Let's build your game together",
+          "ar": "لنبنِ لعبتك معًا"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Proje görüşmesi için formu doldurun; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the form to set up a project call; we reply within two business days. No data is stored on this demo site.",
+          "ar": "املأ النموذج لتحديد مكالمة حول المشروع؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Proje görüşmesi",
+          "en": "Project call",
+          "ar": "مكالمة المشروع"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
@@ -3056,10 +3108,10 @@
         "address": {
           "tr": "Kare Sokak No: 5, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "5 Kare Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع كادر رقم 5، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع كاري رقم 5، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 021 01 02",
-        "email": "demo@karestudyo.example",
+        "email": "merhaba@karestudyo.example",
         "social": [],
         "legal": [
           {

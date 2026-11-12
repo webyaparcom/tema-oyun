@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Kurulumdan panoya; veriden rapora.",
-        "en": "From setup to panel; from data to report.",
-        "ar": "من التهيئة إلى اللوحة؛ من البيانات إلى التقرير."
+        "tr": "Fikirden yayına; oyun, karakter ve sahne üretimi.",
+        "en": "From idea to release: games, characters and scenes.",
+        "ar": "من الفكرة إلى الإطلاق: ألعاب وشخصيات ومشاهد."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Oyun ve 3D içerik; görseller temsilîdir.",
-        "en": "Games and 3D content; images are representative.",
-        "ar": "ألعاب ومحتوى ثلاثي الأبعاد؛ الصور تمثيلية."
+        "tr": "Bağımsız oyun stüdyosu; görseller temsilîdir.",
+        "en": "Independent game studio; images are representative.",
+        "ar": "استوديو ألعاب مستقل؛ الصور تمثيلية."
       }
     },
     {

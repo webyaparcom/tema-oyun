@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Oyun ve 3D içerik; görseller temsilîdir.",
-    "en": "Games and 3D content; images are representative.",
-    "ar": "ألعاب ومحتوى ثلاثي الأبعاد؛ الصور تمثيلية."
+    "tr": "Bağımsız oyun stüdyosu; görseller temsilîdir.",
+    "en": "Independent game studio; images are representative.",
+    "ar": "استوديو ألعاب مستقل؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:46.765Z",
+  "update": "2026-11-12T07:36:39.601Z",
   "date": "2026-10-30"
 }
