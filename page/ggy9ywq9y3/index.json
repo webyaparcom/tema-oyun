@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Kurulumdan panoya; veriden rapora.",
-    "en": "From setup to panel; from data to report.",
-    "ar": "من التهيئة إلى اللوحة؛ من البيانات إلى التقرير."
+    "tr": "Fikirden yayına; oyun, karakter ve sahne üretimi.",
+    "en": "From idea to release: games, characters and scenes.",
+    "ar": "من الفكرة إلى الإطلاق: ألعاب وشخصيات ومشاهد."
   },
   "keyword": {
-    "tr": "Ürün & Pano",
-    "en": "Product & Panel",
-    "ar": "منتج ولوحة"
+    "tr": "Oyun ve 3D",
+    "en": "Games & 3D",
+    "ar": "الألعاب وثلاثي الأبعاد"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:57:28.209Z",
-  "update": "2026-11-05T23:44:46.762Z"
+  "update": "2026-11-12T07:36:39.597Z"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Kare Studio",
   "short_name": "Kare Studio",
-  "description": "Oyun ve 3D içerik; görseller temsilîdir.",
+  "description": "Bağımsız oyun stüdyosu: mobil ve PC oyun geliştirme, 3D modelleme, animasyon ve oyun testi; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
